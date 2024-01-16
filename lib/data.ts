@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { url } from "inspector";
 
 export const links = [
   {
@@ -62,23 +63,23 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Large Multi-Family",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "This book is a roadmap to harnessing the incredible advantages of passive investing in this sector.",
+    tags: ["Risk Mitigation", "Tax Incentives", "Depreciation Benefits", "1031 Exchange", "Economies of Scale"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Underwriting Formula",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "In this book and attached excel file we give you a fully transparent look into our underwriting princables and philosophy.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "AI SaaS",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Learn about the new and exciting tech of AI (artificial intelegence) see how companies are and will be using this technology currently and in the future.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },

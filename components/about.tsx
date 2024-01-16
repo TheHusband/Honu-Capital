@@ -21,7 +21,7 @@ export default function About() {
       <p className="mb-3">
         We are a family run, {" "}
         <span className="font-medium">Verticly Integrated</span> company. Founded by a husband and wife, 
-        after their time in the US Army, the met working at Tesla.{" "}
+        after their time in the US Army, they met working at Tesla.{" "}
         <span className="font-medium">After investing in the single family market</span>.{" "}
         <span className="italic">Building their portfolio one door at a time</span>, They realized 
         there had to be a better way! <span className="underline">Honu Capital</span> is built to leverage 
