@@ -37,7 +37,7 @@ export default function Intro() {
               height="500"
               quality="100"
               priority={true}
-              className="h-250 w-250 rounded-full object-cover"
+              //className="h-50 w-50 rounded-full object-cover"
             />
           </motion.div>
 
@@ -61,11 +61,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Honu Capital</span> is a{" "}
+        <span className="font-bold">Private Equity</span> company focusing on{" "}
+        <span className="font-bold">AI SaaS & Real Estate</span>.
+        <span className="underline"> Investing for the future.</span>.
       </motion.h1>
 
       <motion.div
@@ -84,7 +83,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Contact us here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -93,7 +92,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          Download our OM{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
