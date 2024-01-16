@@ -36,28 +36,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Education Protal",
+    location: "Learn what we are doing",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "We have build a custom portal for our Partners and potential partners.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Contact us for more info",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "HonuCap",
+    location: "Our LP App",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Using this app our partners get access to a wealth of data to monitor their and our progress",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Contact us for more info",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "HonuNews",
+    location: "Our AI integrated newsletter",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Stay up to date on Honu Capital, the market, market trends and the latest technologies being leverage in the current market.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Contact us for more info",
   },
 ] as const;
 
@@ -73,36 +73,35 @@ export const projectsData = [
     title: "Underwriting Formula",
     description:
       "In this book and attached excel file we give you a fully transparent look into our underwriting princables and philosophy.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["Financial Analysis", "Market Research", "Debt Structure", "OpEx Efficiency", "Value-Add Opportunities"],
     imageUrl: rmtdevImg,
   },
   {
     title: "AI SaaS",
     description:
       "Learn about the new and exciting tech of AI (artificial intelegence) see how companies are and will be using this technology currently and in the future.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["Technology Evaluation", "Market Potential", "Revenue Model", "Customer Base", "Scalability"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "CRE",
+  "Multi-Family",
+  "Risk Mitigation",
+  "Tax Incentives",
+  "Reduced OpEx",
+  "CapEx",
+  "Subsidies",
+  "Property Value",
+  "AI",
+  "Data Analysis",
+  "Efficiency Improvement",
+  "FITC",
+  "Risk Management",
+  "Predictive Analytics",
+  "MACRS",
+  "Innovative Product Development",
+  "Competitive Advantage",
+  "Adaptability to Chang",
 ] as const;
