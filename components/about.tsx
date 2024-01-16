@@ -17,23 +17,24 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About us</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        We are a family run {" "}
+        <span className="font-medium">verticly integrated</span> company. Founded by a husband and wife, 
+        after their time in the Army working for Tesla.{" "}
+        <span className="font-medium">After investing in the single family market</span>.{" "}
+        <span className="italic">Building their portfolio one door at a time</span>, They realized 
+        they was a better way! <span className="underline">Honu Capital</span> is built to leverage 
+        Economies of Scale. Taking advantage of their experience of running large complex operations in 
+        lean and efficient matter, always looking at ways to cut cost, time and using AI/Tech to optimize 
+        opperations. Along with their experience in the Real Estate industry{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Fix and Flipping, Buy and Holding, Property Management, Wholesaling
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . Honu Capital is familiar with ever changing market. We are always looking to
+        learn new technologies and leverage that data in the current market conditions. We are always looking 
+        to the past and future{" "}<span className="font-medium">to optimize our positions</span> and bring greater 
+        value to our partners.
       </p>
 
       <p>
