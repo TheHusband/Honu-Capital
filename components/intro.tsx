@@ -109,7 +109,7 @@ export default function Intro() {
           href="https://mailchi.mp/63ec582a4980/honu-capital-newsletter"
           target="_blank"
         >
-          <FaNewspaper />
+          <FaNewspaper /> 
         </a>
       </motion.div>
       <Analytics />
