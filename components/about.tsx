@@ -19,22 +19,25 @@ export default function About() {
     >
       <SectionHeading>About us</SectionHeading>
       <p className="mb-3">
-        We are a family run, {" "}
-        <span className="font-medium">Verticly Integrated</span> company. Founded by a husband and wife, 
-        after their time in the US Army, they met working at Tesla.{" "}
-        <span className="font-medium">After investing in the single family market</span>.{" "}
-        <span className="italic">Building their portfolio one door at a time</span>, They realized 
-        there had to be a better way! <span className="underline">Honu Capital</span> is built to leverage 
-        Economies of Scale. Taking advantage of their experience of running large complex operations in 
-        a lean and efficient matter, always looking at ways to cut cost, time while using AI/Tech to optimize 
-        operations. Which could be integrated with their experience in the Real Estate industry{" "}
+        We are a family-run, {" "}
+        <span className="font-medium">Vertically Integrated</span> company founded by a husband and wife team 
+        who both served in the US Army and later met working at Tesla.{" "}
+        <span className="font-medium">After venturing into the single-family market</span>,{" "}
+        <span className="italic">and steadily building our portfolio one door at a time,</span>, we recognized 
+        the need for a more efficient approach. <span className="underline">Honu Capital</span> is designed to 
+        harness economies of scale, drawing on our experience in efficiently managing large, complex operations. 
+        We constantly seek ways to reduce costs and save time, incorporating AI/tech solutions to optimize our 
+        operations.{" "}
         <span className="font-medium">
           Fix and Flipping, Buy and Holding, Property Management, Wholesaling
         </span>
-        . To find opportunities others might not see. Honu Capital is familiar with the ever changing markets. We are always looking to
-        learn new technologies and leverage that data in current market conditions. We are always looking 
-        to the past, present and future{" "}<span className="font-medium">to optimize our positions</span> and bring greater 
-        value to our partners.
+        Our expertise extends to various facets of the real estate industry, including fix and flipping, 
+        buy and hold strategies, property management, and wholesaling. Through this diverse experience, 
+        we identify opportunities that others may overlook. Honu Capital remains attuned to the dynamic 
+        real estate markets, staying ahead by embracing new technologies and utilizing data to navigate 
+        current conditions.{" "}<span className="font-medium">Our commitment</span> extends to learning 
+        from the past, thriving in the present, and strategically positioning ourselves for the future 
+        to enhance value for our partners.
       </p>
     </motion.section>
   );
