@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -112,6 +113,7 @@ export default function Intro() {
           <FaGithubSquare />
         </a>
       </motion.div>
+      <Analytics />
     </section>
   );
 }
