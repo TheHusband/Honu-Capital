@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { FaNewspaper, FaTwitter } from "react-icons/fa";
+import { FaNewspaper, FaTwitter, FaAddressBook } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -84,7 +84,7 @@ export default function Intro() {
           }}
         >
           Contact us here{" "}
-          <FaNewspaper className="opacity-70 group-hover:translate-x-1 transition" />
+          <FaAddressBook className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
