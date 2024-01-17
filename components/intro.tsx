@@ -63,8 +63,8 @@ export default function Intro() {
       >
         <span className="font-bold">Honu Capital</span> is a{" "}
         <span className="font-bold">Private Equity</span> company focusing on{" "}
-        <span className="font-bold">AI SaaS & Real Estate</span>.
-        <span className="underline"> Investing for the future</span>.
+        <span className="font-bold">AI SaaS & Real Estate.</span>  
+        <span className="underline">Investing for the future</span>.
       </motion.h1>
 
       <motion.div
