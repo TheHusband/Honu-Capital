@@ -92,7 +92,7 @@ export default function Intro() {
           href="https://mailchi.mp/3bb3849ebd23/honu-capital"
           download
         >
-          Download our OM{" "}
+          Executive Summary{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
