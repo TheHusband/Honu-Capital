@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import LargeMultiFamily from "@/public/Honu Capital.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import { url } from "inspector";
@@ -66,21 +66,21 @@ export const projectsData = [
     title: "Large Multi-Family",
     description:
       "This book is a roadmap to harnessing the incredible advantages of passive investing in this sector.",
-    tags: ["Risk Mitigation", "Tax Incentives", "Depreciation Benefits", "1031 Exchange", "Economies of Scale"],
-    imageUrl: corpcommentImg,
+    tags: ["Risk Mitigation", "Tax Incentives", "Economies of Scale"],
+    imageUrl: LargeMultiFamily,
   },
   {
     title: "Underwriting Formula",
     description:
       "In this book and attached excel file we give you a fully transparent look into our underwriting princables and philosophy.",
-    tags: ["Financial Analysis", "Market Research", "Debt Structure", "OpEx Efficiency", "Value-Add Opportunities"],
+    tags: ["Financial Analysis", "Market Research", "Debt Structure"],
     imageUrl: rmtdevImg,
   },
   {
     title: "AI SaaS",
     description:
       "Learn about the new and exciting tech of AI (artificial intelegence) see how companies are and will be using this technology currently and in the future.",
-    tags: ["Technology Evaluation", "Market Potential", "Revenue Model", "Customer Base", "Scalability"],
+    tags: ["Technology Evaluation", "Market Potential", "Scalability"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
