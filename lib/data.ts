@@ -45,9 +45,9 @@ export const experiencesData = [
   },
   {
     title: "HonuCap",
-    location: "Our LP App",
+    location: "Our App",
     description:
-      "Using this app our partners get access to a wealth of data to monitor their and our progress",
+      "(in Development) Using this app our partners get access to a wealth of data to monitor their and our progress",
     icon: React.createElement(CgWorkAlt),
     date: "Contact us for more info",
   },
@@ -63,21 +63,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Large Multi-Family",
+    title: "Ebooks",
     description:
       "This book is a roadmap to harnessing the incredible advantages of passive investing in this sector.",
     tags: ["Risk Mitigation", "Tax Incentives", "Economies of Scale"],
     imageUrl: LargeMultiFamily,
   },
   {
-    title: "Underwriting Formula",
+    title: "HonuEd",
     description:
       "In this book and attached excel file we give you a fully transparent look into our underwriting princables and philosophy.",
     tags: ["Financial Analysis", "Market Research", "Debt Structure"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "AI SaaS",
+    title: "HonuChat",
     description:
       "Learn about the new and exciting tech of AI (artificial intelegence) see how companies are and will be using this technology currently and in the future.",
     tags: ["Technology Evaluation", "Market Potential", "Scalability"],
